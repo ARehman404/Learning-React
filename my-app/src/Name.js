@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function(prop){
+export default function({ name, removeName }){
     return(
         <>
-            <li>{prop.name}</li>
+            <li>{name}</li>
+            <button onClick={()=>removeName(name)}>Remove</button>
         </>
     );
 }

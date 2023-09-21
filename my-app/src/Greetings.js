@@ -9,7 +9,7 @@ export default function Greetings(prop) {
     <>
       <h1>Hello, {prop.name}</h1>
       <button onClick={Counter}>
-        Click me {count} times
+        Clicked me {count} times
       </button>
 
     </>
