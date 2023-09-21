@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Greetings from './Greetings';
 import reportWebVitals from './reportWebVitals';
+import ListOfNNames from './ListOfNames';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const listofNames = ['Abdul', 'Peter', 'Billy Bill Bob']
 root.render(
   <React.StrictMode>
     <Greetings name ='Abdul'/>
+    <ListOfNNames list = {listofNames}/>
   </React.StrictMode>
 );
 
